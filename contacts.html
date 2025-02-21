@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <style>
+    
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: black;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            margin: 20px;
+        }
+        label{
+            display: block;
+            margin: 10px;
+        }
+        input[type ="text"],
+        input[type ="email"] {
+            padding: 8px;
+            width: 200px;
+        }
+        textarea {
+            padding: 8px;
+            width: 200px;
+            height: 100px;
+        }
+        input[type ="Submit"] {
+            padding: 10px 20px ;
+            background-color: #333;
+            color: white;
+            border: none;
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <h1>CONTACT US</h1>
+        <form action="Contactt">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required><br><br>
+            <label for="Email">Email:</label>
+            <input type="email" name="email" id="emai" required><br><br>
+            <label for="Message">Message</label>
+            <textarea id="Message" name="Message" required></textarea><br><br>
+            <input type="Submit" value="Send Message">
+
+        </form>
+    </div>
+    <footer>
+        <p>@2025 NAIROBI HOSPITAL ALL RIGHTS RESERVED</p>
+    
+    </footer>
+    
+</body>
+</html>

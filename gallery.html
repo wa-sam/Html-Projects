@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+    
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav li a :hover {
+            background-color: black;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+
+        }
+        .gallery img {
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1>GALLERY</h1>
+    <div class="gallery">
+        <img src="images/doctor1.png" alt="image 1">
+        <img src="images/doctor2.jpg" alt="image 2">
+        <img src="images/doctor3.jpg="alt="image3">
+        <img src="images/doctor4.jpg" alt="image 4">
+        <img src="images/doctor5.jpg" alt="image 5">
+        <img src="images/doctor6.jpg" alt="image 6">
+    </div>
+    <footer>
+        <p>@2025 NAIROBI HOSPITAL ALL RIGHTS RESERVED</p>
+    
+    </footer>
+    
+</body>
+</html>
